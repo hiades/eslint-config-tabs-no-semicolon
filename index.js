@@ -1,11 +1,11 @@
 module.exports = {
+	'extends': ['eslint:recommended'],
+
 	'env': {
 		'browser': true,
 		'es6': true,
 		'node': true,
 	},
-
-	'extends': ['eslint:recommended'],
 
 	'parserOptions': {
 		'ecmaVersion': 6,
@@ -13,12 +13,6 @@ module.exports = {
 			'experimentalObjectRestSpread': true,
 		},
 		'sourceType': 'module',
-	},
-
-	'env': {
-		'es6': true,
-		'node': true,
-		'browser': true,
 	},
 
 	'rules': {
