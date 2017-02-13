@@ -1,0 +1,17 @@
+{
+	"name": "eslint-config-tabs-no-semicolon",
+
+	"version": "1.0.0",
+
+	"description": "A set of opinionated ESLint (http://eslint.org) rules",
+
+	"main": "index.js",
+
+	"author": "Miguel Dorta",
+
+	"license": "MIT",
+
+	"peerDependencies": {
+		"eslint": "^2.0.0 || ^3.0.0",
+	}
+}
