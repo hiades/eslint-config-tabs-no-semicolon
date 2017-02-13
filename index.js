@@ -4,8 +4,7 @@ module.exports = {
 	'parserOptions': {
 		'ecmaVersion': 6,
 		'ecmaFeatures': {
-			'experimentalObjectRestSpread': true,
-			'jsx': true
+			'experimentalObjectRestSpread': true
 		},
 		'sourceType': 'module',
 	},
@@ -122,7 +121,6 @@ module.exports = {
 		'prefer-const': 2,
 		'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
 		'object-curly-spacing': [2, 'always', { objectsInObjects: false }],
-		'array-bracket-spacing': [2, 'never'],
-		'vue/jsx-uses-vars': 2,
+		'array-bracket-spacing': [2, 'never']
 	},
 }
