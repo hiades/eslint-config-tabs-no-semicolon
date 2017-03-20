@@ -17,7 +17,6 @@ module.exports = {
 		'comma-style': [2, 'last'],
 		'constructor-super': 2,
 		'dot-location': [2, 'property'],
-		'eol-last': 2,
 		'eqeqeq': [2, 'allow-null'],
 		'generator-star-spacing': [2, { 'before': true, 'after': true }],
 		'handle-callback-err': [2, '^(err|error)$' ],
